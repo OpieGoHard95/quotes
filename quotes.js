@@ -10,4 +10,8 @@ var text = "'I'm the cook,' he said, 'it's my job.'"
 // 	This puts the words DubQuote right after cook, replacing the comma
 //	I still need to figure out how to get a quotation mark to appear
 //	I also need it to not replace the comma
-console.log(text.replace(/\W'/, "DubQuote"));
+
+// Second iteration = console.log(text.replace(/\W'?, "\""));
+// 	This putes the " right after the cook, still replacing the comma
+//	I still need to figure out how to not replace the comma
+console.log(text.replace(/\W'/, "\""));
